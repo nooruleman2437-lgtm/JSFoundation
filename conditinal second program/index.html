@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Conditional Cards Example</title>
+  <!-- Link external CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>Number Evaluation</h2>
+  <input type="number" id="numInput" placeholder="Enter a number">
+  <button onclick="checkNumber()">Check</button>
+
+  <!-- Card container -->
+  <div class="card" id="resultCard" style="display:none;">
+    <img id="cardImage" src="" alt="Result Image">
+    <div class="card-content">
+      <h3 id="resultTitle"></h3>
+      <p id="resultText"></p>
+    </div>
+  </div>
+
+  <!-- Link external JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>

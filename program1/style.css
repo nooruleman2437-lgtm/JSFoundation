@@ -1,0 +1,36 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    background-color:white;
+    padding: 100px;
+
+}
+.container{
+    width: 500px;
+    margin: auto;
+}
+h1{
+    color: #000;
+}
+p{
+    color: rgb(49, 53, 53);
+    font-size: 30px;
+}
+button{
+    padding: 10px 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+    background-color: rgb(231, 229, 233);
+    color: blue;
+    border-radius: 6px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: blue;
+}
+/* this class will be added by javascript*/
+.active{
+    color: rgb(199, 13, 128);
+    font-size: 22px;
+    font-weight: bold;
+}

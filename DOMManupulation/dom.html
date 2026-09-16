@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple DOMManipulation program/Event Listener</title>
+    <style>
+.highlight{
+    background-color: blueviolet;
+    color: aqua;
+    font-weight: bold;
+}
+
+    </style>
+</head>
+<body>
+    <!---I change text content-->
+    <h1 id="my paragraph">I am programer</h1>
+    <button id="CTB">change text</button>
+    
+    <!--Quiz 2 Highlight first city button-->
+ <section id="citylist">
+    <h2>Traversing the DOM</h2>
+    <!--//ul>li*3-->
+ <ul>
+    <li>D.I.KHAN</li>
+    <li>ISLAMABAD</li>
+    <li>PESHAWAR</li>
+ </ul>
+    <button id="highlightfirstcity">Highlight First City</button>
+ </section>
+    <!---removing dom element-->
+    <section>
+        <ul id="taskList">
+            <li>bus</li>
+            <li>cycle</li>
+            <li>van</li>
+
+        </ul>
+        <button id="removeLastTask">Remove Last Task</button>
+    </section>
+   <!--Quiz 4 Event handling--->
+<section >
+<button id="myButton">Click Me</button>
+<p id="message"></p>
+</section>
+<!--Event delegation is a technique where you attach a single event listener to a parent element instead of adding individual listeners to each child element.
+
+Quiz 5 Event delegation (Click on any name to select it)-->
+<section id="nameList">
+    <ul>
+        <li class ="MAK">MAK</li>
+        <li class ="ZOZO">ZOZO</li>
+        <li class ="FALEHA">FALEHA</li>
+    </ul>
+<p>Click on any name to slect it</p>
+</section>
+
+<!--Form handling means:
+>Capturing the form data when a user submits it.
+>Validating it (optional).
+>Processing or displaying it (e.g., showing it on the page, saving, sending to a server, etc.).
+Quiz 6-->
+<section>
+    <form id="feedbackForm">
+<label for="feedbackInput">Your Feedback</label>
+<input type="text" id ="feedbackInput"placeholder ="Enter your feed back please"/>
+<button type="submit">Submit Feedback</button>
+</form>
+<p id="FeedbackDisplay"></p>
+</section>
+<!--Quiz 7 DOMContentLoaded is an event that fires when the HTML content of the page is completely loaded and parsed, before images, CSS, and other external resources are fully loaded.-->
+<section>
+<h2>DOM Content Load</h2>
+<p id="domStatus">Waiting for DOM to load....</p>
+</section>
+<!--Quiz 8 CSS Classes Manipulation-->
+<h1>Togglehighlight</h1>
+<p id="descriptiontext">This text will change color</p>
+<button id="THL">Toggle Highlight</button>
+<script src="script.js"></script>
+</body>
+</html>
